@@ -1,0 +1,69 @@
+.app-background {
+  position: relative;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-repeat: repeat;
+}
+
+.app-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-vector/flat-polygonal-background_23-2148916219.jpg?t=st=1720476253~exp=1720479853~hmac=55c29a7c99b462799e1401c3361ff96da93db6e65bd501159e271c78ad956b96&w=1800');
+  background-size:auto;
+  background-repeat: repeat;
+  background-position: 0 0;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+ 
+
+
+
+.App {
+  text-align: center;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #dce4ec;;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
